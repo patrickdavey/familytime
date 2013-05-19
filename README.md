@@ -6,6 +6,8 @@ display times at various locations on the planet.
 
 It uses [Google's timezone api](https://developers.google.com/maps/documentation/timezone/) to calculate the daylight savings offsets.
 
+There's an example deploy at [http://familytime.herokuapp.com/](http://familytime.herokuapp.com/)
+
 Installation
 ============
 
@@ -22,3 +24,16 @@ Installation
 
     # Start the local web server
     $ rackup config.ru
+
+Heroku
+======
+
+If you want to run it on herok follow the above steps then
+
+   $ heroku create
+   $ git push heroku master
+
+TODO
+====
+
+Tests.  Ehem
