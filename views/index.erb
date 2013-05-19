@@ -1,0 +1,9 @@
+<ul data-role="listview" data-theme="d" data-divider-theme="d">
+  <% @times.each do |k,v| %>
+    <li data-role="list-divider"><%="#{k} #{v.strftime('%H:%M')}"%></li>
+    <li>
+      <h3><%="#{v.strftime('%H:%M')}"%></h3>
+      <p><%= "#{v.strftime('%a %d-%B') }" %></p>
+    </li>
+  <% end %>
+</ul>
