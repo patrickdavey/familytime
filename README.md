@@ -30,8 +30,8 @@ Heroku
 
 If you want to run it on herok follow the above steps then
 
-   $ heroku create
-   $ git push heroku master
+    $ heroku create
+    $ git push heroku master
 
 TODO
 ====
